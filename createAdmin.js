@@ -11,8 +11,8 @@ async function createAdmin() {
     });
     console.log('Database connected');
 
-    const email = 'xabaabdullah@gmail.com';
-    const password = '980912Harris-';
+    const email = '';
+    const password = '';
 
     const salt = crypto.randomBytes(16);
     crypto.pbkdf2(password, salt, 310000, 32, 'sha256', async (err, hashedPassword) => {
