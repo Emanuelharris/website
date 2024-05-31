@@ -75,7 +75,7 @@ opts.secretOrKey = process.env.JWT_SECRET_KEY;
 //middlewares
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://megasound.netlify.app/login',
   credentials: true,
 };
 
